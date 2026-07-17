@@ -8,7 +8,7 @@ const app = express();
 
 app.use(cors({
   origin: process.env.FRONTEND_URL || '*',
-  exposedHeaders: ['X-PII-Counts', 'Content-Disposition'],
+  exposedHeaders: ['X-PII-Counts', 'Content-Disposition', 'X-Preview-Text'],
 }));
 
 app.use(express.json());
@@ -18,7 +18,11 @@ app.use('/api/jobs', jobsRouter);
 
 app.get('/api/health', (_req, res) => res.json({ status: 'ok' }));
 
-const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => console.log(`[server] Listening on http://localhost:${PORT}`));
+// Only bind a port when run directly (local dev). Vercel imports this file as a
+// module and calls the exported app as a serverless handler — no listen() needed.
+if (require.main === module) {
+  const PORT = process.env.PORT || 4000;
+  app.listen(PORT, () => console.log(`[server] Listening on http://localhost:${PORT}`));
+}
 
 module.exports = app;
