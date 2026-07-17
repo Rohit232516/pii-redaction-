@@ -1,15 +1,16 @@
 {
-  "version": 2,
-  "buildCommand": "npm install && cd frontend && npm install && npm run build",
-  "outputDirectory": "frontend/dist",
-  "functions": {
-    "api/index.js": {
-      "memory": 512,
-      "maxDuration": 30
+  "services": {
+    "frontend": {
+      "root": "frontend",
+      "framework": "vite",
+      "buildCommand": "npm run build",
+      "outputDirectory": "dist"
+    },
+    "backend": {
+      "root": "backend",
+      "framework": "express",
+      "buildCommand": "npm install",
+      "startCommand": "node server.js"
     }
-  },
-  "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index.js" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  }
 }
