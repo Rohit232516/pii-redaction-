@@ -18,7 +18,9 @@ app.use('/api/jobs', jobsRouter);
 
 app.get('/api/health', (_req, res) => res.json({ status: 'ok' }));
 
-const PORT = process.env.PORT || 4000;
-app.listen(PORT, () => console.log(`[server] Listening on http://localhost:${PORT}`));
+if (require.main === module) {
+  const PORT = process.env.PORT || 4000;
+  app.listen(PORT, () => console.log(`[server] Listening on http://localhost:${PORT}`));
+}
 
 module.exports = app;
