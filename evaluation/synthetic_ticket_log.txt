@@ -1,0 +1,126 @@
+========================================
+SUPPORT TICKET LOG — INTERNAL USE ONLY
+Generated: 2024-01-15
+========================================
+
+-------------------------------------------------------------------
+TICKET #TKT-20240115-001
+Created: 2024-01-15 09:23:41 UTC
+Status: OPEN
+Priority: HIGH
+Assigned Agent: Support Team Alpha
+-------------------------------------------------------------------
+
+Customer Name: Rashi Patil
+Email: rashi.patil@example.com
+Phone: +91 98765 43210
+Account ID: ACC-887234
+
+Issue Description:
+Customer Rashi Patil contacted support regarding unauthorized charges on her credit
+card ending in 4242. The full card number on file is 4111 1111 1111 1111.
+She provided her date of birth as 14/03/1990 for identity verification.
+
+Customer's registered address:
+42 Shivaji Nagar, Near Pune Central Mall
+Pune, Maharashtra - 411005
+India
+
+Customer works at Infosys Limited and reported that a colleague at Infosys Limited
+also experienced a similar issue last week.
+
+The unauthorized transaction originated from IP address 192.168.45.201.
+Our fraud team traced the request to 192.168.45.201 and flagged it.
+
+SSN on file (for US residency verification): 523-41-8837
+
+Internal Notes:
+- Verified identity via DOB 14/03/1990 ✓
+- Called customer back at +91 98765 43210 — confirmed breach
+- Escalated to fraud team
+- Case owner: Agent Priya Mehta (priya.mehta@internalteam.com)
+
+-------------------------------------------------------------------
+TICKET #TKT-20240115-002
+Created: 2024-01-15 11:47:09 UTC
+Status: IN PROGRESS
+Priority: MEDIUM
+Assigned Agent: Support Team Beta
+-------------------------------------------------------------------
+
+Customer Name: Arjun Sharma
+Email: arjun.sharma92@gmail.com
+Phone: 080-4567-8901
+Account ID: ACC-554109
+
+Issue Description:
+Arjun Sharma reported that he cannot log into the customer portal. His account
+was last accessed from IP address 10.0.0.47. He also mentioned that his colleague
+Rashi Patil (rashi.patil@example.com) is facing a similar login issue and they
+both work at Tata Consultancy Services.
+
+Customer details for verification:
+- Full name: Arjun Sharma
+- Date of birth: 22 Jul 1985 (born on 22/07/1985)
+- Alternate phone: +91 70123 45678
+- Credit card for billing: 5500 0000 0000 0004
+
+Home address provided:
+Plot 7B, Sector 12, Dwarka
+New Delhi - 110075
+
+Workplace: Tata Consultancy Services
+Office address: Tata Consultancy Services Campus, Sector 62, Noida - 201309
+
+SSN (shared for background check): 712-89-3456
+
+Internal Notes:
+- Login failure traced to IP 10.0.0.47 — geo-mismatch flagged
+- Called Arjun Sharma at 080-4567-8901
+- Forwarded issue to security team
+- CC: arjun.sharma92@gmail.com with resolution steps
+
+-------------------------------------------------------------------
+TICKET #TKT-20240115-003
+Created: 2024-01-15 14:02:55 UTC
+Status: RESOLVED
+Priority: LOW
+Assigned Agent: Support Team Alpha
+-------------------------------------------------------------------
+
+Customer Name: Meena Krishnamurthy
+Email: meena.k@techbridge.in
+Phone: +91 94400 11223
+Account ID: ACC-221876
+
+Issue Description:
+Meena Krishnamurthy called to update her billing information. New credit card
+number: 3782 822463 10005 (American Express). Her old card on file ended in 9999.
+
+Date of birth confirmed as 05-09-1978 (DOB: 05/09/1978).
+
+Updated mailing address:
+No. 14, 3rd Cross, Jayanagar 4th Block
+Bengaluru, Karnataka - 560011
+
+Customer is employed at Tech Bridge Solutions Pvt. Ltd.
+Contact for billing queries: meena.k@techbridge.in
+
+A secondary point of contact is her husband, Rajan Krishnamurthy, reachable at
+rajan.krish@personalmail.com.
+
+The session that initiated the update came from IP address 203.145.77.88.
+
+SSN for compliance record: 345-67-1289
+
+Internal Notes:
+- Identity verified: DOB 05/09/1978 matched ✓
+- Updated card to 3782 822463 10005
+- Confirmed address change with Meena Krishnamurthy via +91 94400 11223
+- Closure email sent to meena.k@techbridge.in
+
+========================================
+END OF LOG
+Exported by: System Administrator
+Export timestamp: 2024-01-15 23:59:00 UTC
+========================================

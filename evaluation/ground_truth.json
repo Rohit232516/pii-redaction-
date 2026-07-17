@@ -1,0 +1,172 @@
+{
+  "_comment": "Ground truth PII annotations for synthetic_ticket_log.txt. Each entity lists all surface forms that appear in the document.",
+  "entities": [
+    {
+      "type": "NAME",
+      "canonical": "Rashi Patil",
+      "occurrences": ["Rashi Patil", "Rashi Patil", "Rashi Patil"]
+    },
+    {
+      "type": "NAME",
+      "canonical": "Arjun Sharma",
+      "occurrences": ["Arjun Sharma", "Arjun Sharma", "Arjun Sharma", "Arjun Sharma"]
+    },
+    {
+      "type": "NAME",
+      "canonical": "Meena Krishnamurthy",
+      "occurrences": ["Meena Krishnamurthy", "Meena Krishnamurthy", "Meena Krishnamurthy"]
+    },
+    {
+      "type": "NAME",
+      "canonical": "Priya Mehta",
+      "occurrences": ["Priya Mehta"]
+    },
+    {
+      "type": "NAME",
+      "canonical": "Rajan Krishnamurthy",
+      "occurrences": ["Rajan Krishnamurthy"]
+    },
+    {
+      "type": "EMAIL",
+      "canonical": "rashi.patil@example.com",
+      "occurrences": ["rashi.patil@example.com", "rashi.patil@example.com"]
+    },
+    {
+      "type": "EMAIL",
+      "canonical": "arjun.sharma92@gmail.com",
+      "occurrences": ["arjun.sharma92@gmail.com", "arjun.sharma92@gmail.com"]
+    },
+    {
+      "type": "EMAIL",
+      "canonical": "priya.mehta@internalteam.com",
+      "occurrences": ["priya.mehta@internalteam.com"]
+    },
+    {
+      "type": "EMAIL",
+      "canonical": "meena.k@techbridge.in",
+      "occurrences": ["meena.k@techbridge.in", "meena.k@techbridge.in", "meena.k@techbridge.in"]
+    },
+    {
+      "type": "EMAIL",
+      "canonical": "rajan.krish@personalmail.com",
+      "occurrences": ["rajan.krish@personalmail.com"]
+    },
+    {
+      "type": "PHONE",
+      "canonical": "+91 98765 43210",
+      "occurrences": ["+91 98765 43210", "+91 98765 43210"]
+    },
+    {
+      "type": "PHONE",
+      "canonical": "080-4567-8901",
+      "occurrences": ["080-4567-8901", "080-4567-8901"]
+    },
+    {
+      "type": "PHONE",
+      "canonical": "+91 70123 45678",
+      "occurrences": ["+91 70123 45678"]
+    },
+    {
+      "type": "PHONE",
+      "canonical": "+91 94400 11223",
+      "occurrences": ["+91 94400 11223", "+91 94400 11223"]
+    },
+    {
+      "type": "CREDIT_CARD",
+      "canonical": "4111 1111 1111 1111",
+      "occurrences": ["4111 1111 1111 1111"]
+    },
+    {
+      "type": "CREDIT_CARD",
+      "canonical": "5500 0000 0000 0004",
+      "occurrences": ["5500 0000 0000 0004"]
+    },
+    {
+      "type": "CREDIT_CARD",
+      "canonical": "3782 822463 10005",
+      "occurrences": ["3782 822463 10005", "3782 822463 10005"]
+    },
+    {
+      "type": "SSN",
+      "canonical": "523-41-8837",
+      "occurrences": ["523-41-8837"]
+    },
+    {
+      "type": "SSN",
+      "canonical": "712-89-3456",
+      "occurrences": ["712-89-3456"]
+    },
+    {
+      "type": "SSN",
+      "canonical": "345-67-1289",
+      "occurrences": ["345-67-1289"]
+    },
+    {
+      "type": "IP_ADDRESS",
+      "canonical": "192.168.45.201",
+      "occurrences": ["192.168.45.201", "192.168.45.201"]
+    },
+    {
+      "type": "IP_ADDRESS",
+      "canonical": "10.0.0.47",
+      "occurrences": ["10.0.0.47", "10.0.0.47"]
+    },
+    {
+      "type": "IP_ADDRESS",
+      "canonical": "203.145.77.88",
+      "occurrences": ["203.145.77.88"]
+    },
+    {
+      "type": "DOB",
+      "canonical": "14/03/1990",
+      "occurrences": ["14/03/1990", "14/03/1990"]
+    },
+    {
+      "type": "DOB",
+      "canonical": "22/07/1985",
+      "occurrences": ["22 Jul 1985", "22/07/1985"]
+    },
+    {
+      "type": "DOB",
+      "canonical": "05/09/1978",
+      "occurrences": ["05-09-1978", "05/09/1978"]
+    },
+    {
+      "type": "COMPANY",
+      "canonical": "Infosys Limited",
+      "occurrences": ["Infosys Limited", "Infosys Limited"]
+    },
+    {
+      "type": "COMPANY",
+      "canonical": "Tata Consultancy Services",
+      "occurrences": ["Tata Consultancy Services", "Tata Consultancy Services"]
+    },
+    {
+      "type": "COMPANY",
+      "canonical": "Tech Bridge Solutions Pvt. Ltd.",
+      "occurrences": ["Tech Bridge Solutions Pvt. Ltd."]
+    },
+    {
+      "type": "ADDRESS",
+      "canonical": "42 Shivaji Nagar, Near Pune Central Mall, Pune, Maharashtra - 411005",
+      "occurrences": ["42 Shivaji Nagar, Near Pune Central Mall\nPune, Maharashtra - 411005"]
+    },
+    {
+      "type": "ADDRESS",
+      "canonical": "Plot 7B, Sector 12, Dwarka, New Delhi - 110075",
+      "occurrences": ["Plot 7B, Sector 12, Dwarka\nNew Delhi - 110075"]
+    },
+    {
+      "type": "ADDRESS",
+      "canonical": "No. 14, 3rd Cross, Jayanagar 4th Block, Bengaluru, Karnataka - 560011",
+      "occurrences": ["No. 14, 3rd Cross, Jayanagar 4th Block\nBengaluru, Karnataka - 560011"]
+    }
+  ],
+  "not_redacted": [
+    { "value": "TKT-20240115-001", "reason": "Ticket number — operational identifier, not personal PII" },
+    { "value": "TKT-20240115-002", "reason": "Ticket number — operational identifier, not personal PII" },
+    { "value": "TKT-20240115-003", "reason": "Ticket number — operational identifier, not personal PII" },
+    { "value": "ACC-887234", "reason": "Account ID — operational identifier" },
+    { "value": "2024-01-15", "reason": "Ticket creation timestamp — not DOB context" }
+  ]
+}
